@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/pre-dexed/debug/classes-3df2bb3bceee9526f6a12e3395f58ab78669acda.jar" />
+    </item>
+    <item
+        jar="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/pre-dexed/debug/classes-84e8a01be2109857040a6823232cd47b9af2399f.jar" />
+    </item>
+    <item
+        jar="/home/technohacker/AndroidSDK/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-d5a43812e7fc38c77a636fdd37d8ca0628e340c7.jar" />
+    </item>
+    <item
+        jar="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/technohacker/MyProgrammingWorlds/MyAndroidWorld/PhoneMouse/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-b015c70c6c138f2b1fd06f66255383fbc09fd60b.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,7 @@
+.gradle
+/PhoneMouseServer/local.properties
+/PhoneMouseServer/.idea/workspace.xml
+/PhoneMouseServer/.idea/libraries
+.DS_Store
+/PhoneMouseServer/build
+/PhoneMouseServer/captures
