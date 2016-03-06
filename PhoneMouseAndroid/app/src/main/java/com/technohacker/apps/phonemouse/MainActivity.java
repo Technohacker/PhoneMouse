@@ -12,7 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
-import com.technohacker.apps.phonemouse.net.NetworkThread;
+import com.technohacker.apps.phonemouse.net.NetworkTask;
 
 public class MainActivity extends ActionBarActivity implements SensorEventListener {
 
@@ -39,10 +39,10 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         btnLeft.setOnTouchListener((v, event) -> {
             switch(event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
-                    new NetworkThread().execute("LFTPRS");
+                    new NetworkTask().execute("LFTPRS");
                     return true; // if you want to handle the touch event
                 case MotionEvent.ACTION_UP:
-                    new NetworkThread().execute("LFTRLS");
+                    new NetworkTask().execute("LFTRLS");
                     return true; // if you want to handle the touch event
             }
             return false;
@@ -51,10 +51,10 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
         btnRight.setOnTouchListener((v, event) -> {
             switch (event.getAction()) {
                 case MotionEvent.ACTION_DOWN:
-                    new NetworkThread().execute("RGTPRS");
+                    new NetworkTask().execute("RGTPRS");
                     return true; // if you want to handle the touch event
                 case MotionEvent.ACTION_UP:
-                    new NetworkThread().execute("RGTRLS");
+                    new NetworkTask().execute("RGTRLS");
                     return true; // if you want to handle the touch event
             }
             return false;
@@ -87,7 +87,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
 
     @Override
     public boolean onTouchEvent(MotionEvent event){
-        NetworkThread net = new NetworkThread();
+        NetworkTask net = new NetworkTask();
         switch (event.getAction() & MotionEvent.ACTION_MASK){
             case MotionEvent.ACTION_POINTER_DOWN:
                 // This happens when you touch the screen with two fingers
@@ -144,7 +144,7 @@ public class MainActivity extends ActionBarActivity implements SensorEventListen
                     int dx = (int)(x  * diffTime);
                     int dy = (int)(y  * diffTime);
 
-                    new NetworkThread().execute("MOVE " + dx + "," + dy);
+                    new NetworkTask().execute("MOVE " + dx + "," + dy);
                 }
             }
         }
